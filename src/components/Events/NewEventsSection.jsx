@@ -12,7 +12,7 @@ export default function NewEventsSection() {
   useEffect(() => {
     async function fetchEvents() {
       setIsLoading(true);
-      const response = await fetch('http://localhost:3000/events');
+      const response = await fetch(`${import.meta.env.VITE_BASE_URL}/events`);
 
       if (!response.ok) {
         const error = new Error('An error occurred while fetching the events');
@@ -71,3 +71,4 @@ export default function NewEventsSection() {
     </section>
   );
 }
+
