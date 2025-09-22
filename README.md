@@ -1,6 +1,6 @@
-# Events Management Application
+# Events Management App
 
-A full-stack web application for managing events, built as a learning project to explore React Query implementation with modern React development practices.
+A React + Express.js application for managing events with CRUD operations.
 
 ## Purpose
 
@@ -164,4 +164,5 @@ This project is set up for implementing React Query to replace the current tradi
 ## Contributing
 
 This is a learning project. Feel free to experiment with different React Query patterns and implementations to explore the library's capabilities.
+
 
