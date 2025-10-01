@@ -454,3 +454,44 @@ ul {
     transform: translateY(0);
   }
 }
+
+.todo-list {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #3c4249;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.todo-list h1 {
+  text-align: center;
+  color: #d9e2f1;
+}
+
+.todo-list input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.todo-list button {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  background-color: #e30d7c;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.todo-list ul {
+  margin-top: 1rem;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
